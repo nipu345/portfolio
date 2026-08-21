@@ -1,7 +1,6 @@
 # Nikhil Pudtha — Portfolio
 
-This is my personal portfolio, built by myself, containing my hobbies,
-projects, and resume.
+This is my personal portfolio containing my hobbies, projects, and resume.
 
 **Live site:** https://nipu345.github.io/portfolio/
 
