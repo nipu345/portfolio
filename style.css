@@ -194,6 +194,13 @@ main{ padding-top: 2.5rem; }
   overflow: hidden; box-shadow: 0 6px 24px var(--shadow);
 }
 .hobby-photo{ width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.hobby-photo--fit{
+  object-fit: contain;
+  background: var(--surface-2);
+  padding: 1.25rem;
+}
+
+
 .hobby-body{ padding: 1.5rem; }
 .hobby-card .icon-circle{ width: 40px; height: 40px; margin-bottom: 1rem; }
 .hobby-card .icon-circle svg{ width: 18px; height: 18px; }
