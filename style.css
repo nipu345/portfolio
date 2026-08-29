@@ -12,29 +12,29 @@
    ========================================================= */
 
 :root{
-  /* ---- Light theme (default) ---- */
-  --bg-a: #f7f5fd;
-  --bg-b: #eeebfa;
+  /* ---- Light theme (default): warm sand + navy ink, mustard accent ---- */
+  --bg-a: #f5f1e6;
+  --bg-b: #ece3cd;
   --surface: #ffffff;
-  --surface-2: #f7f5fc;
-  --ink: #1b1830;
-  --text: #433f5c;
-  --text-muted: #746e90;
-  --border: #e7e3f5;
-  --shadow: rgba(88, 68, 168, 0.12);
+  --surface-2: #f7f2e6;
+  --ink: #16273f;
+  --text: #3c4a5e;
+  --text-muted: #6b7688;
+  --border: #e1d9c3;
+  --shadow: rgba(22, 39, 63, 0.12);
 
-  --accent: #6d5df6;
-  --accent-hover: #5c4de0;
-  --accent-ink: #ffffff;
-  --accent-soft-bg: #eeeafd;
-  --accent-soft-text: #5b4cd9;
+  --accent: #c98a1f;
+  --accent-hover: #ad750f;
+  --accent-ink: #16273f;
+  --accent-soft-bg: #faf0da;
+  --accent-soft-text: #8a5f10;
 
   /* Tag / icon color rotation — used for badges, project tags,
      and icon circles so items read as a coordinated set */
-  --tag1-bg: #ede9fd; --tag1-text: #6653e0;
-  --tag2-bg: #e1f7ef; --tag2-text: #14966f;
-  --tag3-bg: #fff0dd; --tag3-text: #c97a1f;
-  --tag4-bg: #fde9f3; --tag4-text: #c93f8f;
+  --tag1-bg: #dcf0ec; --tag1-text: #146b5c;
+  --tag2-bg: #fbe4de; --tag2-text: #b8461f;
+  --tag3-bg: #e0eef8; --tag3-text: #1f6fa8;
+  --tag4-bg: #f3ecd6; --tag4-text: #7a6a1f;
 
   --sans: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
   --radius-lg: 26px;
@@ -46,16 +46,16 @@
    Delete this whole block if you only ever want the light theme. ---- */
 @media (prefers-color-scheme: dark){
   :root{
-    --bg-a: #16132a; --bg-b: #1c1836;
-    --surface: #1f1b38; --surface-2: #241f42;
-    --ink: #f1eefb; --text: #cbc6e4; --text-muted: #8f89ae;
-    --border: #34305a; --shadow: rgba(0,0,0,0.4);
-    --accent: #8f7ffa; --accent-hover: #a394ff; --accent-ink: #17132b;
-    --accent-soft-bg: #2b2650; --accent-soft-text: #bcaffc;
-    --tag1-bg: #2b2650; --tag1-text: #bcaffc;
-    --tag2-bg: #143a30; --tag2-text: #62dcb2;
-    --tag3-bg: #3a2a16; --tag3-text: #f0b36b;
-    --tag4-bg: #3a1e30; --tag4-text: #f0a8d0;
+    --bg-a: #0f1b2d; --bg-b: #14243b;
+    --surface: #16273f; --surface-2: #1b2e49;
+    --ink: #f4f1e8; --text: #c4ccd8; --text-muted: #8695ab;
+    --border: #26395a; --shadow: rgba(0,0,0,0.45);
+    --accent: #e0a339; --accent-hover: #eeb454; --accent-ink: #16273f;
+    --accent-soft-bg: #3a2f16; --accent-soft-text: #f0c368;
+    --tag1-bg: #123a34; --tag1-text: #6cd9c5;
+    --tag2-bg: #3a1f16; --tag2-text: #f0906b;
+    --tag3-bg: #16283a; --tag3-text: #7ec0f0;
+    --tag4-bg: #34301a; --tag4-text: #e0cf7a;
   }
 }
 
