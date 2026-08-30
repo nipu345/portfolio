@@ -36,10 +36,10 @@
   --tag3-bg: #e0eef8; --tag3-text: #1f6fa8;
   --tag4-bg: #f3ecd6; --tag4-text: #7a6a1f;
 
-  --sans: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
-  --radius-lg: 26px;
-  --radius-md: 16px;
-  --radius-sm: 10px;
+  --sans: "Archivo", "Segoe UI", system-ui, sans-serif;
+  --radius-lg: 4px;
+  --radius-md: 3px;
+  --radius-sm: 2px;
 }
 
 /* ---- Dark theme: follows the visitor's OS/browser setting.
@@ -92,7 +92,7 @@ h1,h2,h3{ font-family: var(--sans); color: var(--ink); margin: 0; text-wrap: bal
   background: color-mix(in srgb, var(--surface) 92%, transparent);
   backdrop-filter: blur(14px);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   padding: 0.6rem 0.7rem 0.6rem 1.4rem;
   box-shadow: 0 8px 30px var(--shadow);
 }
@@ -105,7 +105,7 @@ h1,h2,h3{ font-family: var(--sans); color: var(--ink); margin: 0; text-wrap: bal
   font-family: var(--sans);
   display: inline-block;
   font-size: 0.92rem; font-weight: 600; color: var(--text-muted);
-  padding: 0.55rem 1.15rem; border-radius: 999px;
+  padding: 0.55rem 1.15rem; border-radius: var(--radius-sm);
   text-decoration: none;
   transition: background .15s ease, color .15s ease;
 }
@@ -134,7 +134,7 @@ main{ padding-top: 2.5rem; }
 .badge{
   display: inline-flex; align-items: center; gap: 0.5rem;
   background: var(--surface); border: 1px solid var(--border);
-  padding: 0.55rem 1rem 0.55rem 0.7rem; border-radius: 999px;
+  padding: 0.55rem 1rem 0.55rem 0.7rem; border-radius: var(--radius-sm);
   font-size: 0.9rem; font-weight: 600; color: var(--ink);
   box-shadow: 0 2px 10px var(--shadow);
 }
@@ -142,7 +142,7 @@ main{ padding-top: 2.5rem; }
 .cta-row{ display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 1.9rem; }
 .btn{
   font-family: var(--sans); font-weight: 700; font-size: 0.98rem;
-  padding: 0.85rem 1.6rem; border-radius: 999px; cursor: pointer;
+  padding: 0.85rem 1.6rem; border-radius: var(--radius-sm); cursor: pointer;
   border: 1px solid transparent; text-decoration: none; display: inline-block;
   transition: transform .12s ease, background .15s ease, box-shadow .15s ease;
 }
@@ -228,7 +228,7 @@ main{ padding-top: 2.5rem; }
 .project-card ul{ padding-left: 1.2rem; }
 .project-card li{ margin: 0.3rem 0; }
 .tags{ display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.4rem; }
-.tag{ font-size: 0.82rem; font-weight: 700; padding: 0.35rem 0.85rem; border-radius: 999px; }
+.tag{ font-size: 0.82rem; font-weight: 700; padding: 0.35rem 0.85rem; border-radius: var(--radius-sm); }
 
 /* ---------- RESUME ---------- */
 .resume-card{
@@ -246,7 +246,7 @@ main{ padding-top: 2.5rem; }
 .r-label{
   font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--accent-soft-text); background: var(--accent-soft-bg);
-  display: inline-block; padding: 0.3rem 0.75rem; border-radius: 999px;
+  display: inline-block; padding: 0.3rem 0.75rem; border-radius: var(--radius-sm);
 }
 .r-divider{ border: none; border-top: 1px solid var(--border); margin: 0.9rem 0 1.3rem; }
 .r-entry{ margin-bottom: 1.5rem; }
